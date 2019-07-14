@@ -5,7 +5,7 @@ import { ApolloProvider } from "react-apollo";
 import Posts from './components/Posts'
 
 const client = new ApolloClient({
-  uri: "http://content.etiennebelanger.com/graphql"
+  uri: "http://headless.test/graphql"
 });
 
 function App() {
